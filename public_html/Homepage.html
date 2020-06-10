@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Homepage</title>
+	<style>
+		.body1{
+			margin:0px;
+			padding:0px;
+			background-image: url('IMG_1617.jpeg');
+			vertical-align: middle;
+			background-repeat: no-repeat;
+			background-position: 0% 65%;
+			opacity: 100%
+		}
+
+		h1{
+			font-size: 60px;
+			line-height: 10px;
+			color:white;
+			font-family: times new roman;
+		}
+		hr{
+			margin: 0px;
+			padding: 0px;
+			display:block;
+			width: 100%;
+			border-color: 10px white;
+			border-width: 10px;
+		}
+		button{
+			color: white;
+			background-color:lightgray;
+			border-radius: 10px;
+			font-size: 15px;
+			font-family: times new roman;
+			min-height: 25px;
+			min-width: 135px;
+			transition: 0.5s;
+			text-align: center;
+		}
+		.body1:hover{
+			opacity:150%;
+		}
+		button:hover {
+			background-color:darkorange ;
+			color:white;
+		}
+		h1:hover {
+			color:black;
+		}
+		.download {
+			font-size: 5px;
+			color: white;
+			transition: 0.5s;
+		}
+		.download p{
+			display: none;
+			color: #000000;
+		}
+		.download:hover p{
+			background-color: darkorange;
+			color:white;
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<div class = "body1">
+	<left>
+		<button onclick = "window.location.href = 'https://github.com/HanlinMiao/CPE-487-A'">Github</button>
+		
+		<div style = "padding:0px; display:inline-block" class = "download">
+		<a href = "document.pdf20200131-1-2ezwa820200131-1-64sym3.pdf" download="Hanlin_Miao_Resume">
+		<button>Resume
+			<p style="font-size:10px; font-color:white"> Click to download Hanlin's Resume </p>
+		</button>
+	
+		</a>
+		</div>
+		<button onclick = "window.location.href = 'resumeBreakdownPage.html'">Resume Breakdown</button>
+		<button>CPE-487-A Log</button>
+	</left>
+	<center><h1>Hanlin<br>
+		<br>
+		<br><br>
+			Miao</h1></center>
+	<br>
+	<br>
+</div>
+
+</body>
+</html>
